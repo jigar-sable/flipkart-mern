@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3c4514cf.css",
+    "main.js": "/static/js/main.137212d1.js",
+    "static/media/payment-methods.svg": "/static/media/payment-methods.69e7ec34d1302e6b58b2cb1abe6b2f9c.svg",
+    "static/media/404-not-found.svg": "/static/media/404-not-found.f58b723c5e420e43683574327be5529a.svg",
+    "static/media/furniture.png": "/static/media/furniture.c167da994e4cf873c7f5.png",
+    "static/media/kitchen-sale.jpg": "/static/media/kitchen-sale.058c7dbd12f5f0a0be9e.jpg",
+    "static/media/fashionsale.jpg": "/static/media/fashionsale.3071fadf18ef75cdee1c.jpg",
+    "static/media/success.png": "/static/media/success.a6e71fb67ec0538ff2ee.png",
+    "static/media/failed.png": "/static/media/failed.25f9a5080785b1e6642c.png",
+    "static/media/gadget-sale.jpg": "/static/media/gadget-sale.ec893927252d46afc4d9.jpg",
+    "static/media/appliances.png": "/static/media/appliances.968e046c13701f2e1260.png",
+    "static/media/fashion.png": "/static/media/fashion.280fd2c8f7637aca622b.png",
+    "static/media/poco-m4-pro.webp": "/static/media/poco-m4-pro.48599deb73643813688f.webp",
+    "static/media/grocery.png": "/static/media/grocery.b684d799acd0d0375626.png",
+    "static/media/home.png": "/static/media/home.eb7132924aab6919441b.png",
+    "static/media/beauty.png": "/static/media/beauty.7d66ddbcf545e947bd6b.png",
+    "static/media/logo.png": "/static/media/logo.3b0baaaf50ed860dcc7a.png",
+    "static/media/electronics.png": "/static/media/electronics.c3245fc5e6c095785d94.png",
+    "static/media/realme-9-pro.webp": "/static/media/realme-9-pro.5a99ab97f9f4b611aadc.webp",
+    "static/media/oppo-reno7.webp": "/static/media/oppo-reno7.dedadaebb21cf2bb2137.webp",
+    "static/media/phone.png": "/static/media/phone.6039d584e2ddf5e9355e.png",
+    "static/media/travel.png": "/static/media/travel.19839bf1002d4c52057f.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.3c4514cf.css",
+    "static/js/main.137212d1.js"
+  ]
+}
