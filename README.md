@@ -1,7 +1,7 @@
 # Flipkart - MERN
 Full-Stack Flipkart with Admin Dashboard & Paytm Payment Gateway.
 
-[Visit Now](https://flipkartwebs.herokuapp.com/) 🚀
+[Visit Now](https://flipkartweb-mern.vercel.app) 🚀
 
 ## 🖥️ Tech Stack
 **Frontend:**
@@ -24,11 +24,8 @@ Full-Stack Flipkart with Admin Dashboard & Paytm Payment Gateway.
 
 ![paytm](https://img.shields.io/badge/Paytm-002970?style=for-the-badge&logo=paytm&logoColor=00BAF2)
 
-**Deployed On:**
+**Cloud Storage:** [Cloudinary](https://cloudinary.com/)
 
-![heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
-
-**Image Management:** [Cloudinary](https://cloudinary.com/)
 **Mail Service:** [Sendgrid](https://sendgrid.com/)
 
 ## 🚀 Features
@@ -91,6 +88,7 @@ Full-Stack Flipkart with Admin Dashboard & Paytm Payment Gateway.
 
 <h2>📬 Contact</h2>
 
-If you want to contact me, you can reach me through below handles.
+Feel free to reach me through the below handles if you'd like to contact me.
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jigar-sablee)
+[![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jigarsable.dev)
