@@ -5,11 +5,13 @@ import Searchbar from './Searchbar';
 import logo from '../../../assets/images/logo.png';
 import PrimaryDropDownMenu from './PrimaryDropDownMenu';
 import SecondaryDropDownMenu from './SecondaryDropDownMenu';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+
+  const headerRef = useRef(null);
 
   const { isAuthenticated, user } = useSelector((state) => state.user);
 
@@ -18,12 +20,26 @@ const Header = () => {
   const [togglePrimaryDropDown, setTogglePrimaryDropDown] = useState(false);
   const [toggleSecondaryDropDown, setToggleSecondaryDropDown] = useState(false);
 
+  useEffect(() => {
+    document.body.addEventListener('click', handleClickOutside);
+    return () => {
+      document.body.removeEventListener('click', handleClickOutside);
+    };
+  }, []);
+
+  const handleClickOutside = (event) => {
+    if (headerRef.current && !headerRef.current.contains(event.target)) {
+      setTogglePrimaryDropDown(false);
+      setToggleSecondaryDropDown(false);
+    }
+  };
+
   return (
 
     <header className="bg-primary-blue fixed top-0 py-2.5 w-full z-10">
 
       {/* <!-- navbar container --> */}
-      <div className="w-full sm:w-9/12 px-1 sm:px-4 m-auto flex justify-between items-center relative">
+      <div className="w-full sm:w-9/12 px-1 sm:px-4 m-auto flex justify-between items-center relative" ref={headerRef}>
 
         {/* <!-- logo & search container --> */}
         <div className="flex items-center flex-1">
