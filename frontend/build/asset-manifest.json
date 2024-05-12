@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3c4514cf.css",
-    "main.js": "/static/js/main.137212d1.js",
+    "main.js": "/static/js/main.15acd5cf.js",
     "static/media/payment-methods.svg": "/static/media/payment-methods.69e7ec34d1302e6b58b2cb1abe6b2f9c.svg",
     "static/media/404-not-found.svg": "/static/media/404-not-found.f58b723c5e420e43683574327be5529a.svg",
     "static/media/furniture.png": "/static/media/furniture.c167da994e4cf873c7f5.png",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.3c4514cf.css",
-    "static/js/main.137212d1.js"
+    "static/js/main.15acd5cf.js"
   ]
 }
