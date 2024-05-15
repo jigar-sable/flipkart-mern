@@ -29,5 +29,8 @@
     "stripe": "^8.200.0",
     "uuid": "^8.3.2",
     "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }

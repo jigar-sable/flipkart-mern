@@ -11,6 +11,9 @@ process.on('uncaughtException', (err) => {
     process.exit(1);
 });
 
+// 환경 변수 로드
+require('.env').config();
+
 connectDatabase();
 
 cloudinary.config({
